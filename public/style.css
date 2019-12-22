@@ -18,6 +18,7 @@ body {
 .key {
     height: calc(var(--width) * 4);
     width: var(--width);
+    transition: ease-in-out 0.2s;
 }
 
 .white {

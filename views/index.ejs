@@ -1,42 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Piano</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
+<%- include ("partials/head") -%>
+<div>
     <div class="piano">
-        <div data-note="C" class="key white"></div>
-        <div data-note="Db" class="key black"></div>
-        <div data-note="D" class="key white"></div>
-        <div data-note="Eb" class="key black"></div>
-        <div data-note="E" class="key white"></div>
-        <div data-note="F" class="key white"></div>
-        <div data-note="Gb" class="key black"></div>
-        <div data-note="G" class="key white"></div>
-        <div data-note="Ab" class="key black"></div>
-        <div data-note="A" class="key white"></div>
-        <div data-note="Bb" class="key black"></div>
-        <div data-note="B" class="key white"></div>
+        <div data-note="C1" class="key white"></div>
+        <div data-note="Db1" class="key black"></div>
+        <div data-note="D1" class="key white"></div>
+        <div data-note="Eb1" class="key black"></div>
+        <div data-note="E1" class="key white"></div>
+        <div data-note="F1" class="key white"></div>
+        <div data-note="Gb1" class="key black"></div>
+        <div data-note="G1" class="key white"></div>
+        <div data-note="Ab1" class="key black"></div>
+        <div data-note="A0" class="key white"></div>
+        <div data-note="Bb0" class="key black"></div>
+        <div data-note="B0" class="key white"></div>
+
+        <div data-note="C2" class="key white"></div>
+        <div data-note="Db2" class="key black"></div>
+        <div data-note="D2" class="key white"></div>
+        <div data-note="Eb2" class="key black"></div>
+        <div data-note="E2" class="key white"></div>
+        <div data-note="F2" class="key white"></div>
+        <div data-note="Gb2" class="key black"></div>
+        <div data-note="G2" class="key white"></div>
+        <div data-note="Ab2" class="key black"></div>
+        <div data-note="A1" class="key white"></div>
+        <div data-note="Bb1" class="key black"></div>
+        <div data-note="B1" class="key white"></div>
     </div>
 
-    <audio id="C" src="notes/C.mp3"></audio>
-    <audio id="Db" src="notes/Db.mp3"></audio>
-    <audio id="D" src="notes/D.mp3"></audio>
-    <audio id="Eb" src="notes/Eb.mp3"></audio>
-    <audio id="E" src="notes/E.mp3"></audio>
-    <audio id="F" src="notes/F.mp3"></audio>
-    <audio id="Gb" src="notes/Gb.mp3"></audio>
-    <audio id="G" src="notes/G.mp3"></audio>
-    <audio id="Ab" src="notes/Ab.mp3"></audio>
-    <audio id="A" src="notes/A.mp3"></audio>
-    <audio id="Bb" src="notes/Bb.mp3"></audio>
-    <audio id="B" src="notes/B.mp3"></audio>
+    <audio id="C1" src="notes2/C1.mp3"></audio>
+    <audio id="Db1" src="notes2/Db1.mp3"></audio>
+    <audio id="D1" src="notes2/D1.mp3"></audio>
+    <audio id="Eb1" src="notes2/Eb1.mp3"></audio>
+    <audio id="E1" src="notes2/E1.mp3"></audio>
+    <audio id="F1" src="notes2/F1.mp3"></audio>
+    <audio id="Gb1" src="notes2/Gb1.mp3"></audio>
+    <audio id="G1" src="notes2/G1.mp3"></audio>
+    <audio id="Ab1" src="notes2/Ab1.mp3"></audio>
+    <audio id="A0" src="notes2/A1.mp3"></audio>
+    <audio id="Bb0" src="notes2/Bb0.mp3"></audio>
+    <audio id="B0" src="notes2/B0.mp3"></audio>
 
-    <footer><p class="footer-text"><a href="https://github.com/ablin42">@ablin42</a></p></footer>
-</body>
-</html>
+    <audio id="C2" src="notes2/C2.mp3"></audio>
+    <audio id="Db2" src="notes2/Db2.mp3"></audio>
+    <audio id="D2" src="notes2/D2.mp3"></audio>
+    <audio id="Eb2" src="notes2/Eb2.mp3"></audio>
+    <audio id="E2" src="notes2/E2.mp3"></audio>
+    <audio id="F2" src="notes2/F2.mp3"></audio>
+    <audio id="Gb2" src="notes2/Gb2.mp3"></audio>
+    <audio id="G2" src="notes2/G2.mp3"></audio>
+    <audio id="Ab2" src="notes2/Ab2.mp3"></audio>
+    <audio id="A1" src="notes2/A2.mp3"></audio>
+    <audio id="Bb1" src="notes2/Bb1.mp3"></audio>
+    <audio id="B1" src="notes2/B1.mp3"></audio>
+</div>
+<%- include ("partials/footer") -%>
