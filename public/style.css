@@ -42,3 +42,21 @@ body {
 .black.active {
     background-color: #333;
 }
+
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 40px;
+}
+
+.footer-text {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-text a {
+    color: #f8c291;
+    text-decoration: none;
+}
